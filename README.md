@@ -1,6 +1,6 @@
 # @sennery/eslint-config
 
-My personal basic eslint config
+My personal basic eslint config for JavaScript + Vue 3
 
 ## Usage
 
