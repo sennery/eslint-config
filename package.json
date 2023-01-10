@@ -1,0 +1,25 @@
+{
+  "name": "@sennery/eslint-config",
+  "version": "0.1.0",
+  "description": "sennery eslint config",
+  "author": "Arsenii Likhachev <me@sennery.dev> (https://sennery.dev)",
+  "license": "MIT",
+  "homepage": "https://github.com/sennery/eslint-config",
+  "private": false,
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "eslint-plugin-vue": "^9.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0"
+  }
+}
