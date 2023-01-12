@@ -6,6 +6,9 @@
   "license": "MIT",
   "homepage": "https://github.com/sennery/eslint-config",
   "private": false,
+  "scripts": {
+    "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public"
+  },
   "keywords": [
     "eslint-config"
   ],
@@ -21,11 +24,12 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
     "@typescript-eslint/eslint-plugin": "^5.48.1",
     "@typescript-eslint/parser": "^5.48.1",
+    "bumpp": "^8.2.1",
     "eslint": "^8.31.0",
     "eslint-plugin-vue": "^9.3.0",
-    "@rushstack/eslint-patch": "^1.2.0",
     "typescript": "^4.9.4"
   }
 }
