@@ -17,7 +17,7 @@
     "index.js",
     "basic.js",
     "typescript.js",
-    "vue.cjs"
+    "vue.js"
   ],
   "peerDependencies": {
     "eslint": ">=7.4.0",
