@@ -30,11 +30,27 @@ Add `@sennery` to your eslint config for full TypeScript and Vue support:
 
 ... or use separate configs:
 
+- Config for TS
+
 ```json
 {
-  "extends": "@sennery/eslint-config/typescript", // Config for TS
-  "extends": "@sennery/eslint-config/vue", // Config for Vue 
-  "extends": "@sennery/eslint-config/basic" // Basic config for JS (already included in all previous configs)
+  "extends": "@sennery/eslint-config/typescript"
+}
+```
+
+- Config for Vue
+
+```json
+{
+  "extends": "@sennery/eslint-config/vue"
+}
+```
+
+- Basic config for JS (already included in all previous configs)
+
+```json
+{ 
+  "extends": "@sennery/eslint-config/basic"
 }
 ```
 
