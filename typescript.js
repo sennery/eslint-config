@@ -35,7 +35,7 @@ module.exports = {
         '@typescript-eslint/restrict-template-expressions': 'error',
         '@typescript-eslint/unbound-method': 'error',
       },
-    }
+    },
   ],
   rules: {
     '@typescript-eslint/ban-ts-comment': ['error', { 'ts-ignore': 'allow-with-description' }],
@@ -46,7 +46,7 @@ module.exports = {
     '@typescript-eslint/prefer-ts-expect-error': 'error',
 
     'no-useless-constructor': 'off',
-    "@typescript-eslint/no-useless-constructor": "error",
+    '@typescript-eslint/no-useless-constructor': 'error',
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     'no-redeclare': 'off',

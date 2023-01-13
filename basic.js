@@ -39,7 +39,7 @@ module.exports = {
     'array-bracket-spacing': ['error', 'never'],
     'brace-style': ['error', '1tbs', { allowSingleLine: true }],
     'block-spacing': ['error', 'always'],
-    'camelcase': ['error', { 'properties': 'always' }],
+    'camelcase': ['error', { properties: 'always' }],
     'comma-spacing': ['error', { before: false, after: true }],
     'comma-style': ['error', 'last'],
     'comma-dangle': ['error', 'always-multiline'],
@@ -68,7 +68,6 @@ module.exports = {
     'space-before-blocks': 'error',
     'space-infix-ops': 'error',
     'space-unary-ops': ['error', { words: true, nonwords: false }],
-    'template-curly-spacing': 'error',
 
     'no-var': 'error',
     'prefer-const': [
