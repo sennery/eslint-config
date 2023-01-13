@@ -1,3 +1,5 @@
+const typeRules = require('./typeBasedTypescriptRules')
+
 module.exports = {
   extends: [
     './vue',
@@ -14,30 +16,10 @@ module.exports = {
         extraFileExtensions: ['.vue'],
       },
       rules: {
+        ...typeRules,
         'no-unused-vars': 'off',
         'no-undef': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
-        'no-throw-literal': 'off',
-        '@typescript-eslint/no-throw-literal': 'error',
-        'no-implied-eval': 'off',
-        '@typescript-eslint/no-implied-eval': 'error',
-        'dot-notation': 'off',
-        '@typescript-eslint/dot-notation': ['error', { allowKeywords: true }],
-        '@typescript-eslint/no-floating-promises': 'error',
-        '@typescript-eslint/no-misused-promises': 'error',
-        '@typescript-eslint/await-thenable': 'error',
-        '@typescript-eslint/no-for-in-array': 'error',
-        '@typescript-eslint/no-unnecessary-type-assertion': 'error',
-        '@typescript-eslint/no-unsafe-argument': 'error',
-        '@typescript-eslint/no-unsafe-assignment': 'error',
-        '@typescript-eslint/no-unsafe-call': 'error',
-        '@typescript-eslint/no-unsafe-member-access': 'error',
-        '@typescript-eslint/no-unsafe-return': 'error',
-        'require-await': 'off',
-        '@typescript-eslint/require-await': 'error',
-        '@typescript-eslint/restrict-plus-operands': 'error',
-        '@typescript-eslint/restrict-template-expressions': 'error',
-        '@typescript-eslint/unbound-method': 'error',
       },
     },
   ],
