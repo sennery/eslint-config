@@ -13,12 +13,15 @@
   "keywords": [
     "eslint-config"
   ],
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./typescript": "./lib/typescript.js",
+    "./vue": "./lib/vue.js",
+    "./basic": "./lib/basic.js"
+  },
   "files": [
-    "index.js",
-    "basic.js",
-    "typescript.js",
-    "vue.js"
+    "lib"
   ],
   "peerDependencies": {
     "eslint": ">=7.4.0",
