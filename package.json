@@ -7,6 +7,7 @@
   "homepage": "https://github.com/sennery/eslint-config",
   "private": false,
   "scripts": {
+    "lint": "eslint . --fix",
     "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "keywords": [
