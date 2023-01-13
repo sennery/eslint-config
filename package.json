@@ -1,6 +1,6 @@
 {
   "name": "@sennery/eslint-config",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "sennery eslint config",
   "author": "Arsenii Likhachev <me@sennery.dev> (https://sennery.dev)",
   "license": "MIT",
