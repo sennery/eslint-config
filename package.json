@@ -8,7 +8,7 @@
   "private": false,
   "scripts": {
     "lint": "eslint . --fix",
-    "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public"
+    "release": "pnpm lint && bumpp package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "keywords": [
     "eslint-config"
