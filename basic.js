@@ -25,6 +25,7 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest',
+    sourceType: 'module',
   },
   reportUnusedDisableDirectives: true,
   extends: [
