@@ -30,7 +30,7 @@ Add `@sennery` to your eslint config for full TypeScript and Vue support:
 
 ... or use separate configs:
 
-- Config for TS (there must be `tsconfig.json` in your project directory, so type based linting can work)
+- #### Config for TS (there must be `tsconfig.json` in your project directory, so type based linting can work)
 
 ```json
 {
@@ -38,7 +38,7 @@ Add `@sennery` to your eslint config for full TypeScript and Vue support:
 }
 ```
 
-- Config for Vue
+- #### Config for Vue
 
 ```json
 {
@@ -46,7 +46,7 @@ Add `@sennery` to your eslint config for full TypeScript and Vue support:
 }
 ```
 
-- Basic config for JS (already included in all previous configs)
+- #### Basic config for JS (already included in all previous configs)
 
 ```json
 { 
@@ -67,7 +67,9 @@ Add following eslint commands to your `package.json`:
 }
 ```
 
-### Config VS Code auto fix
+### Config auto fix
+
+- #### VS Code
 
 Install [VS Code ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and create `.vscode/settings.json`
 
@@ -80,3 +82,10 @@ Install [VS Code ESLint extension](https://marketplace.visualstudio.com/items?it
   }
 }
 ```
+
+- #### WebStorm
+
+Open the settings (`Ctrl+Alt+S`) and go to `Languages & Frameworks` > `JavaScript` > `Code Quality Tools` > `ESLint`. Enable the following setting:
+
+- [x] Run eslint --fix on save
+
