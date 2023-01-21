@@ -5,6 +5,7 @@
   "author": "Arsenii Likhachev <me@sennery.dev> (https://sennery.dev)",
   "license": "MIT",
   "homepage": "https://github.com/sennery/eslint-config",
+  "repository": "github:sennery/eslint-config",
   "private": false,
   "scripts": {
     "lint": "eslint . --fix",
