@@ -32,27 +32,27 @@ Add `@sennery` to your eslint config for full TypeScript and Vue support:
 
 - #### Config for TS (there must be `tsconfig.json` in your project directory, so type based linting can work)
 
-```json
-{
-  "extends": "@sennery/eslint-config/typescript"
-}
-```
+    ```json
+    {
+      "extends": "@sennery/eslint-config/typescript"
+    }
+    ```
 
 - #### Config for Vue
 
-```json
-{
-  "extends": "@sennery/eslint-config/vue"
-}
-```
+    ```json
+    {
+      "extends": "@sennery/eslint-config/vue"
+    }
+    ```
 
 - #### Basic config for JS (already included in all previous configs)
 
-```json
-{ 
-  "extends": "@sennery/eslint-config/basic"
-}
-```
+    ```json
+    { 
+      "extends": "@sennery/eslint-config/basic"
+    }
+    ```
 
 ### Eslint scripts
 
@@ -71,21 +71,22 @@ Add following eslint commands to your `package.json`:
 
 - #### VS Code
 
-Install [VS Code ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and create `.vscode/settings.json`
-
-```json
-{
-  "prettier.enable": false,
-  "editor.formatOnSave": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
-}
-```
+    Install [VS Code ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and create `.vscode/settings.json`
+    
+    ```json
+    {
+      "prettier.enable": false,
+      "editor.formatOnSave": false,
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    }
+    ```
 
 - #### WebStorm
 
-Open the settings (`Ctrl+Alt+S`) and go to `Languages & Frameworks` > `JavaScript` > `Code Quality Tools` > `ESLint`. Enable the following setting:
+    Open the settings (`Ctrl+Alt+S`) and go to `Languages & Frameworks` > `JavaScript` > `Code Quality Tools` > `ESLint`. Enable the following setting:
+
 
 - [x] Run eslint --fix on save
 
