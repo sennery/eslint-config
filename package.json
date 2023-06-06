@@ -29,7 +29,6 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@rushstack/eslint-patch": "^1.2.0",
     "@typescript-eslint/eslint-plugin": "^5.48.1",
     "@typescript-eslint/parser": "^5.48.1",
     "bumpp": "^8.2.1",
