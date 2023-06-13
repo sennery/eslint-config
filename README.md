@@ -30,7 +30,8 @@ Add `@sennery` to your eslint config for full TypeScript and Vue support:
 
 ... or use separate configs:
 
-- #### Config for TS (there must be `tsconfig.json` in your project directory, so type based linting can work)
+- #### Config for TS 
+  You have to set *ENV* variable `ESLINT_TSCONFIG` with location of TS config for type based linting (`tsconfig.eslint.json` - is searched by default). If there is no TS config - type based linting will not work
 
     ```json
     {
